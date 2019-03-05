@@ -1,0 +1,44 @@
+header a {
+  color: white;
+}
+header a:hover {
+  text-decoration: none;
+}
+
+.list {
+  position: relative;
+}
+.list .list-group {
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 20%;
+  float: right;
+  z-index: 10000;
+  top: -5px;
+  cursor: pointer;
+}
+
+footer p {
+  color: white;
+}
+
+main h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.card-movie:hover {
+  -webkit-box-shadow: 1px 1px 10px 1px #210801;
+  box-shadow: 1px 1px 10px 1px #210801;
+}
+
+.box{
+  box-sizing: border-box;
+  border: 10px solid transparent;
+  background-clip:padding-box;
+}
+

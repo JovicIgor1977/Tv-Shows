@@ -1,0 +1,37 @@
+header a {
+  color: white;
+}
+header a:hover {
+  text-decoration: none;
+}
+
+.list {
+  position: relative;
+}
+.list .list-group {
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 20%;
+  float: right;
+  z-index: 10000;
+  top: -5px;
+  cursor: pointer;
+}
+
+footer p {
+  color: white;
+}
+
+.show-name {
+  text-align: center;
+}
+
+.show-ul h5 {
+  margin: 5%;
+}
+
+img {
+  width: 100%;
+}
+
